@@ -30,12 +30,12 @@ msgstr "允許文件分享"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_google_calendar
 msgid "Allow the users to synchronize their calendar  with Google Calendar"
-msgstr ""
+msgstr "允許使用者同步Google行事曆"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_base_import
 msgid "Allow users to import data from CSV/XLS/XLSX/ODS files"
-msgstr ""
+msgstr "允許使用者使用CSV/XLS/XLSX/ODS文件導入數據"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
@@ -46,7 +46,7 @@ msgstr "套用"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_google_drive
 msgid "Attach Google documents to any record"
-msgstr ""
+msgstr "連接Google文件到所有記錄"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
@@ -114,7 +114,7 @@ msgstr "主要捐款人"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Email"
-msgstr "電郵"
+msgstr "電子郵件"
 
 #. module: base_setup
 #: model:ir.actions.act_window,name:base_setup.action_general_configuration
@@ -130,17 +130,17 @@ msgstr "讓客戶存取其文件"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Google Calendar"
-msgstr "Google行事曆"
+msgstr "Google 行事曆"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Google Drive"
-msgstr ""
+msgstr "Google 雲端硬碟"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Google Integration"
-msgstr ""
+msgstr "Google 整合"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
@@ -167,7 +167,7 @@ msgstr "匯入／匯出"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Inter company"
-msgstr ""
+msgstr "公司內部交易"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings___last_update
@@ -193,7 +193,7 @@ msgstr "最後更新於"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_inter_company_rules
 msgid "Manage Inter Company"
-msgstr ""
+msgstr "管理公司內部交易"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_group_light_multi_company
@@ -215,7 +215,7 @@ msgstr "多公司"
 msgid ""
 "Once installed, you can configure your API credentials for \"Google "
 "calendar\""
-msgstr ""
+msgstr "安裝後，你可以在\"Google 行事曆\"設定API證書"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
@@ -240,7 +240,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_company_share_partner
 msgid "Share partners to all companies"
-msgstr ""
+msgstr "將合作伙伴，客戶或供應商設為所有公司共享"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_company_share_partner
@@ -248,12 +248,12 @@ msgid ""
 "Share your partners to all companies defined in your instance.\n"
 " * Checked : Partners are visible for every companies, even if a company is defined on the partner.\n"
 " * Unchecked : Each company can see only its partner (partners where company is defined). Partners not related to a company are visible for all companies."
-msgstr ""
+msgstr "將合作伙伴(客戶或供應商)設為所有公司共享。\n * 選中 ：所有合作伙伴對每個公司都是可見的\n * 未選中 ：每個公司只能看到自己定義的合作伙伴。(但是對於未關聯任何公司的合作伙伴，每個公司是可見的。)"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Shared resources"
-msgstr ""
+msgstr "資源共享"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.base_setup_terminology_form
@@ -268,19 +268,19 @@ msgstr "承租人"
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_module_google_calendar
 msgid "This installs the module google_calendar."
-msgstr ""
+msgstr "將會安裝Google行事曆模組"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_module_google_drive
 msgid "This installs the module google_docs."
-msgstr ""
+msgstr "將會安裝Google文件模組"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_module_inter_company_rules
 msgid ""
 "This installs the module inter_company_rules.\n"
 " Configure company rules to automatically create SO/PO when one of your company sells/buys to another of your company."
-msgstr ""
+msgstr "將會安裝\"公司內部規則\"模組\n 設定集團公司之間內部交易時自動建立SO/PO的規則"
 
 #. module: base_setup
 #: model:ir.actions.act_window,name:base_setup.action_partner_terminology_config_form
@@ -290,7 +290,7 @@ msgstr "以另一詞彙代表\"客戶\""
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_auth_oauth
 msgid "Use external authentication providers, sign in with Google..."
-msgstr ""
+msgstr "啟用外部認證，可使用Google帳號登入"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
@@ -300,14 +300,14 @@ msgid ""
 "                                    able to signup to get all his documents,\n"
 "                                    read your company news, check his projects,\n"
 "                                    etc."
-msgstr ""
+msgstr "當你寄送文件給客戶\n                                    (報價、發票),你的客戶將立即可以登入，取得所有\n                                    該客戶的文件、閱讀公司的最新消息、確認專案等等"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_group_light_multi_company
 msgid ""
 "Work in multi-company environments, with appropriate security access between"
 " companies."
-msgstr ""
+msgstr "在適當的安全設置，於多公司的環境之下工作\n 企業"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.base_setup_terminology_form
