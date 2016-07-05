@@ -22,7 +22,7 @@ msgstr ""
 #: code:addons/base_import/static/src/js/import.js:466
 #, python-format
 msgid "(%d more)"
-msgstr ""
+msgstr "(%d 以上)"
 
 #. module: base_import
 #. openerp-web
@@ -31,7 +31,7 @@ msgstr ""
 msgid ""
 "A single column was found in the file, this often means the file separator "
 "is incorrect"
-msgstr ""
+msgstr "該檔案只有單一欄位，這通常是欄位分隔符設定不正確造成"
 
 #. module: base_import
 #. openerp-web
@@ -42,7 +42,7 @@ msgid ""
 "                        one of these 3 ways to reference records in relations. \n"
 "                        Here is when you should use one or the other, \n"
 "                        according to your need:"
-msgstr ""
+msgstr "根據你的需求，你必須判斷選擇下列三種方\n                        式之一來匯入資料。"
 
 #. module: base_import
 #. openerp-web
@@ -53,7 +53,7 @@ msgid ""
 "                        purchase.order_functional_error_line_cant_adpat.CSV \n"
 "                        file of some quotations you can import, based on demo \n"
 "                        data."
-msgstr ""
+msgstr "舉例來說，下面檔案包含少許報價單的測試資料，你可以匯入測試\n                       「purchase.order_functional_error_line_cant_adpat.CSV」\n"
 
 #. module: base_import
 #. openerp-web
@@ -66,7 +66,7 @@ msgid ""
 "                        will have to recreate the link between a person and \n"
 "                        the company he work for. (If you want to test this \n"
 "                        example, here is a"
-msgstr ""
+msgstr "舉例來說，當你要匯入一個SQL資料庫中的兩個資料表\n                        ：公司和員工。而每個員工必須對應一家公司時，你必須重新\n                        建立每個員工與公司的關係"
 
 #. module: base_import
 #. openerp-web
