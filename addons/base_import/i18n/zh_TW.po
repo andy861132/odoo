@@ -53,7 +53,7 @@ msgid ""
 "                        purchase.order_functional_error_line_cant_adpat.CSV \n"
 "                        file of some quotations you can import, based on demo \n"
 "                        data."
-msgstr "舉例來說，「purchase.order_functional_error_line_cant_adpat.CSV」檔案包含少許報價單的測試資料，你可以匯入測試\n"
+msgstr "舉例來說，「purchase.order_functional_error_line_cant_adpat.CSV」檔案包含少許報價單的測試資料，你可以匯入測試"
 
 #. module: base_import
 #. openerp-web
@@ -702,7 +702,7 @@ msgstr "最後更新於"
 #: code:addons/base_import/static/src/xml/import.xml:37
 #, python-format
 msgid "Map your data to Odoo"
-msgstr "描繪你的資料給Odoo"
+msgstr "設定資料"
 
 #. module: base_import
 #. openerp-web
